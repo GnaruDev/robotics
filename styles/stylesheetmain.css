@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300');
+
+body{
+	background-color: #04346b;
+  background-image: url("../images/bgrobo4resize.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 100%;
+	font-family: cairo,helvetica, arial, sans-serif;
+	line-height: 22px;
+	font-size: 16px;
+  padding-top: 330px;
+}
+
+hr.hr-1 {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+hr.hr-18 {
+  background-color: #ffffff;
+  height: 20px;
+  border: 1px solid #8c8c8c;
+  border-radius: 20px;
+}
+
+hr.hr-4 {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(247, 148, 137, 0.75), rgba(0, 0, 0, 0));
+}
+
+hr.hr-18:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border: 0 solid #8c8c8c;
+  border-bottom-width: 1px;
+  border-radius: 20px;
+}
+
+
+* {
+	box-sizing:border-box
+	}
+
+
+footer{
+	position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    background-color: #fadcd9;
+    color: #f79489;
+}
+
+h2{
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 2;
+  color: #04346b;
+  font-family: cairo,helvetica, arial, sans-serif;
+  padding: 0px 18px 0px 18px;
+}
+
+h3{
+  font-weight: bold;
+  line-height: 2;
+  color: #04346b;
+  font-family: cairo,helvetica, arial, sans-serif;
+  padding: 0px 18px 0px 18px;
+}
+
+p{
+  margin-bottom: 2rem;
+  line-height: 2;
+  color: #04346b;
+  padding: 0px 18px 0px 18px;
+  overflow: hidden;
+}
+
+.wrapper{
+  width: 800px;
+  margin: 0 auto;
+}
+
+section{
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0, 1px, 0 rgba(0,0,0,.2);
+}
+
+.img-with-text {
+    text-align: justify;
+    width: 800px;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
